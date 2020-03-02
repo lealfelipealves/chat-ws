@@ -1,0 +1,98 @@
+html, body {
+  height: 100%;
+  background-color: #1f0242;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+footer {
+  padding-bottom: 2.5rem;
+  font-family: sans-serif;
+  text-align: center;
+  color: #FFF;
+}
+
+footer a {
+  color: #fc0291;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logo {
+  height: 75px;
+  margin-right: 1rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.5rem;
+  height: 50px;
+}
+
+#chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+input {
+  width: 80vw;
+  max-width: 600px;
+  border: 1px solid #ddd;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 14px;
+  background-color: #1f0242;
+  border:1px solid #fc0291;
+  color: #fc0291;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fc0291;
+  opacity: 1; /* Firefox */
+}
+
+button {
+  width: 80vw;
+  max-width: 600px;
+  height: 50px;
+  font-size: 14px;
+  background: #fc0291;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  color: #FFF;
+  margin-top: 10px;
+  border: none;
+}
+
+.messages {
+  width: 80vw;
+  max-width: 600px;
+  height: 400px;
+  margin: 20px 0;
+  border: 1px solid #fc0291;
+  padding: 20px;
+  color: #fc0291;
+  font-family: 'Courier New', Courier, monospace;
+}
